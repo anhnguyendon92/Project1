@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    
+    background-color: rgba(red, white, red, 0.76);
+    text-align: center;
+
+}
+
+
+h1 {
+    color:  rgb(180, 21, 29);
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(214, 31, 101);
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+            's r r'
+            'm r r';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 34px auto;
+}
+
+.searchEl {
+    grid-area: s;
+    height: min-content;
+    padding: 5px;
+    text-align: center;
+
+}
+
+
+.searchEl {
+    grid-area: s;
+    height: min-content;
+    padding: 5px;
+    text-align: center;
+    /* width: 200px; */
+}
+
+.dogparkEl {
+    grid-area: r;
+    /* height: 100%; */
+    width: 100%;
+}
+
+#searchResults {
+     height: 100%; 
+}
+
+.dog-park {
+    cursor: pointer;
+}
+
+#dogparkDisplay {
+    height: 100%; 
+}
+
+.hide {
+    display: none;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper {
+    margin-right: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover  {
+    color:black;
+}
+

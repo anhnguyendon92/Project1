@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Puppers Paradise</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <script src="main.js"></script>
+    <header>
+        <img src="images/puppy.png">
+        <h1>PUPPY PARADISE</h1>
+        <p>Take your puppers to different dog parks!</p>
+    </header>
+    <main>
+        <div class='grid'>
+            <section class='searchEl'>
+                <form>
+                    <input type='text' id='userInput'>
+                    <button id="searchButton"><i class="fas fa-search"></i></button>
+
+                </form>
+
+            </section>
+            <div class="main-container">
+                <div class="nav-wrapper">
+                    <div class="left-side">
+                        <div class="nav-link-wrapper"></div>
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="WeatherDashboard.html">Weather</a>
+                    </div>
+
+
+
+                    <div class="right-side">
+                        <div class="brand">
+                            <div>Anh Nguyen</div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class='dogparkEl'>
+                    <div id='searchResults' >
+                        <div id='result1' class='dog-park'>
+                            <h2 id='searchTitle1'>dogpark1</h2>
+                            <img id='searchPicture1'>
+                            <div id="dogparkList" style='display: none'></div>
+                        </div>
+                    <div id='searchResults' >
+                        <div id='result1' class='dog-park'>
+                            <h2 id='searchTitle1'>dogpark2</h2>
+                            <img id='searchPicture2'>
+                            <div id="dogparkList" style='display: none'></div>
+                        </div>
+                    <div id='searchResults' >
+                        <div id='result1' class='dog-park'>
+                            <h2 id='searchTitle1'>dogpark3</h2>
+                            <img id='searchPicture3'>
+                            <div id="dogparkList" style='display: none'></div>
+                        </div>
+                    <div id='searchResults' >
+                        <div id='result1' class='dog-park'>
+                            <h2 id='searchTitle1'>dogpark4</h2>
+                            <img id='searchPicture4'>
+                            <div id="dogparkList" style='display: none'></div>
+                        </div>
+                    <div id='searchResults' >
+                        <div id='result1' class='dog-park'>
+                            <h2 id='searchTitle1'>dogpark5</h2>
+                            <img id='searchPicture5'>
+                            <div id="dogparkList" style='display: none'></div>
+                        </div>
+                        <div id='dogparkDisplay' class='hide' >
+                            <h2 id=dogparkTitle></h2>
+                            <img id=dogPicture>
+                            <span id='dogparkAPI'></span>
+                            <button id="backButton">Back to Search Results</button>
+                        </div>
+                    </div>
+                </section>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <header>
+        <img src="images/puppy.png">
+        <h1>PUPPY PARADISE</h1>
+        <p>Take your puppers to different dog parks!</p>
+    </header>
+    <main>
+        <div class='grid'>
+            <section class='searchEl'>
+                <form>
+                    <input type='text' id='userInput'>
+                    <button id="searchButton"><i class="fas fa-search"></i></button>
+
+                </form>
+
+            </section>
+            <div class="main-container">
+                <div class="nav-wrapper">
+                    <div class="right-side">
+                       <div class="nav-link-wrapper">
+                           <a href="WeatherDashboard.html">Weather</a>
+                       </div> 
+                </div>
+
+                <div class="right-side">
+                    <div class="brand">
+                        <div>Anh Nguyen</div>
+                    </div>
+                </div>
+            </div>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Simple Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <script src="Weather.js"></script>
+</body>
+</html>
