@@ -15,16 +15,17 @@
         <img src="images/puppy.png">
         <h1>PUPPY PARADISE</h1>
         <p>Take your puppers to different dog parks!</p>
-    </header>
+    
     <main>
         <section class='searchEl'>
             <form>
-                <input type="search" id="place-search-input" placeholder="Start Searching..."/>
-                <button id="searchButton"><i class="fas fa-search"></i></button>
+                <input type="search" class="place-search-input" placeholder="Start Searching..."/>
+                <button class="searchButton"><i class="fas fa-search"></i></button>
 
             </form>
 
         </section>
+    </header>    
         <div class="main-container">
             <div class="nav-wrapper">
                 <div class="left-side">
@@ -43,9 +44,9 @@
             </div>
         </div>
 
-
+        <div id="map"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxe3ZrTFj6i92x-duy3G9Sb0R2cJrB_nc&libraries=places"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=createMap&key=AIzaSyBhqXPb8sYg8iRjrYdw64E963mlAJQ-LJA" async defer></script>
         <script src="main.js"></script>
 </body>
 

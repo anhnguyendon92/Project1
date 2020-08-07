@@ -45,6 +45,10 @@ p {
 
 }
 
+#map {
+    height: 500px;
+}
+
 /* Nav Styles */
 .nav-wrapper {
     display: flex;
