@@ -60,6 +60,7 @@ p {
     margin-right: 20px;
     font-size: 0.9rem;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .nav-link-wrapper {
@@ -81,5 +82,23 @@ p {
 .nav-link-wrapper a:hover  {
     color:black;
 }
+
+/* Wrapper Styles */
+
+.img-background {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.items-wrapper {
+    position: relative;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+}
+
 
 
