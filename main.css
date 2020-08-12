@@ -37,7 +37,7 @@ p {
     justify-items: left;
 }
 
-.searchEl {
+.form-control {
     grid-area: s;
     height: min-content;
     padding: 5px;
@@ -104,5 +104,11 @@ p {
     top: 0;
 }
 
+#map {
+    height: 400px;
+}
 
+#target {
+    width: 345px;
+  }
 

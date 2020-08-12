@@ -15,39 +15,29 @@
         <img src="images/puppy.png">
         <h1>PUPPY PARADISE</h1>
         <p>Take your puppers to different dog parks!</p>
-    
-    <main>
-        <section class='searchEl'>
-            <form>
-                <input type="search" class="place-search-input" placeholder="Start Searching..."/>
-                <button class="searchButton"><i class="fas fa-search"></i></button>
 
-            </form>
+    </header>
+    <div class="main-container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper"></div>
+                <a href="index.html">Home</a>
+            </div>
 
-        </section>
-    </header>    
-        <div class="main-container">
-            <div class="nav-wrapper">
-                <div class="left-side">
-                    <div class="nav-link-wrapper"></div>
-                    <a href="index.html">Home</a>
-                </div>
-                <div class="nav-link-wrapper">
-                    <a href="WeatherDashboard.html">Weather</a>
-                </div>
-
-                <div class="right-side">
-                    <div class="brand">
-                        <div>Anh Nguyen</div>
-                    </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>Anh Nguyen</div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="map"></div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?callback=createMap&key=AIzaSyBhqXPb8sYg8iRjrYdw64E963mlAJQ-LJA" async defer></script>
-        <script src="main.js"></script>
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+    <div id="map"></div>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?callback=createMap&libraries=places&key=AIzaSyA1Z06geT0mOMUHfz8L7W68OLItHqK2xuo"
+        type="text/javascript"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
