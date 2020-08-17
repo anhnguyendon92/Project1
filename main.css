@@ -112,3 +112,11 @@ p {
     width: 345px;
   }
 
+li {
+    align-items: center;
+    background-color: lightblue;
+}
+
+.top-banner {
+    color: lightblue
+}
